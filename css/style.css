@@ -1,0 +1,110 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  max-height: 3em;
+}
+
+
+section {
+  min-height: calc(100vh - 3rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section>div {
+  display: flex;
+  flex-direction: column;
+}
+
+section>div>* {
+  min-height: 2rem;
+
+  margin: 1rem auto;
+
+}
+
+.btc-price {
+  font-size: 5rem;
+}
+
+.toPurple {
+  background-color: purple;
+}
+
+.main-btn {
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem;
+  color: white;
+  font-weight: 300;
+}
